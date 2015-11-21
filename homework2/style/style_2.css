@@ -1,0 +1,98 @@
+h1,h2,h3 {
+    font-family: arial;
+    font-weight: bold;
+    padding: 15px;
+}
+h1{
+	font-size: 32px;
+	text-align: center;
+}
+h2{
+	font-size:20px;
+	text-align:left;
+}
+h3{
+	font-size:15px;
+	text-align:left;
+}
+p {
+	margin: 10px;
+}
+span.italic{
+	font-style:italic;
+}
+span.bold{
+	font-weight:600;
+}
+span.big{
+	font-size: 1.5em;
+	font-style: italic;
+	padding-bottom:15px;
+	display:block
+}
+ul{
+	padding-left:15px;
+	padding-right: 15px;
+}
+ul li{
+	list-style-type:disc;
+}
+ol{
+	padding-left:15px;
+	padding-right:15px;
+	display: block;
+    list-style-type: decimal;
+}
+fieldset{
+	border:solid 1px red;
+}
+span.padding{
+	padding-bottom:15px;
+	display:block;
+}
+span.line{
+	text-decoration:underline;
+
+}
+div.background{
+	background: url(../img/3.jpg);
+}
+div.header{
+	text-align:center;
+	background-color:rgba(212, 206, 153, 0.8);
+	margin-right:20%;
+	margin-left:20%
+}
+div.content{
+	background-color: rgba(212, 206, 153, 0.8);
+	margin-right:20%;
+	margin-left:20%;
+}
+div.center{
+	text-align:center;
+}
+div.turbina{
+	float:left;
+}
+div.right{
+	text-align:right;
+}
+div.oposum{
+	text-align:center;
+}
+ul li:nth-child(odd):hover{
+color:red;
+}
+ol li:nth-child(even):hover{
+	background-color:green;
+	font-size:20px;
+}
+p.border{
+	border-style:solid;
+	border-width:1px;
+	border-color:red;
+}
+img.img1.img2{
+	max-width: 100%;
+}
+
