@@ -1,0 +1,309 @@
+body{
+  	background:white url(../img/background_fon.png) repeat-x scroll;
+  	font-family: "Arial";
+}
+/* *************** Wrapper ************/
+
+div.wrapper {
+	float: left;
+	width: 780px;
+	padding-left: 208px;
+	padding-right: 215px;
+}
+/* *************** Hedder *************/
+div.mein{
+	height: 166px;
+	background:url(../img/laingorizont.png) no-repeat;
+	background-position: 4px 159px;
+}	
+h1.logo {
+	float: left;
+	background:url(../img/logo1.png) no-repeat;
+	width: 350px;
+	padding-bottom: 64px;
+	
+	background-position: 0px 41px;
+}
+span.managers_to_managers {
+    display: block;
+    padding-top: 59px;
+    padding-left: 171px;
+    width: 117px;
+    font-size: 1.1em;
+    color: rgb(147, 149, 152);
+}
+ul.registration_menu {
+	padding-top: 5px;
+	padding-bottom: 10px;
+	float: right;
+	width: 161px;
+	background:url(../img/Shape2.png) no-repeat;
+	background-position: 3px -12px;
+	font-size: 12px;
+}
+ul.registration_menu li {
+    float: left;
+    margin-left: 16px;
+    margin-right: -5px;
+    padding-left: 7px;
+}
+li.home_page{ 
+    background:url(../img/glavna.png) no-repeat;
+    background-position: 6px 3px;
+}
+li.registration_menu_border {
+	border-left: 1px solid #939598;
+}
+a.registration {
+	color: rgb(116, 116, 116);
+}
+a.exit {
+	    color: rgb(79, 171, 239);
+}
+h4.hedder_info {
+	float: right;
+    padding-top: 34px;
+    color: rgb(116, 116, 116);
+
+    padding-right: 27px;
+    font-size: 0.96em;
+}
+
+ul.hedder_menu {
+	width: auto;
+	overflow: hidden;
+    float: left;
+    background: url(../img/border_radius.png) no-repeat;
+    background-position: -81px -17px;
+    margin-top: 27px;
+
+
+}
+ul.hedder_menu li{
+	width: 138px;
+    float: right;
+    padding-top: 13px;
+    padding-bottom: 16px;
+    margin-top: 11px;
+    margin-left: -2px;
+    text-align: center;
+
+}
+ul.hedder_menu li a{
+	color: rgb(116, 116, 116);
+}
+#activ{
+	color: rgb(79, 171, 239);
+}
+#vertical{
+	background: url(../img/vertical.png) no-repeat;
+    background-position: 2px  2px;
+}
+#vertical2{
+    background: url(../img/vertical2.png) no-repeat;
+    background-position: 0px  2px;
+}
+/* ************ Saitbar **************/
+div.saitbar{
+    width: 235px;
+    float: left;
+}
+h3.saitbar_categories{
+	background: url(../img/cvadratic.png) no-repeat;
+    background-position: 106px 27px;
+    font-size: 1.25em;
+    width: 220px;
+    padding-top: 21px;
+    padding-left: 2px;
+    padding-bottom: 25px;
+
+}
+ul.saitbar_menu{
+	background: url(../img/strelki.png) no-repeat;
+    background-position: 0px 11px;
+	overflow: hidden;
+	width: 230px;
+}
+ul.saitbar_menu li.cms{
+    border-bottom: solid 1px rgb(116, 116, 116);
+    font-size: 15px;
+    padding-top: 5px;
+    padding-bottom: 10.5px;
+}
+span.padding{
+	display: block;
+	padding-left: 19px;
+}
+ul.saitbar_menu li.desing{
+    padding-top: 8px;
+    padding-bottom: 10px;
+    font-size: 15px;
+    border-bottom: solid 1px rgb(116, 116, 116);
+}
+ul.saitbar_menu li span a{
+    color: black;
+}
+div.rss{
+	background: url(../img/ramka.png) no-repeat;
+    background-position: 64px 16px;
+	width: 230px;
+    padding-bottom: 23px;
+    margin-top: 38px;
+    border-top: solid 1px rgb(116, 116, 116);
+    border-bottom: solid 1px rgb(116, 116, 116);
+}
+span.rss{
+    display: block;
+    background: url(../img/rss.png) no-repeat;
+    background-position: 87px 20px;
+    line-height: 1em;
+    color: rgb(147, 149, 152);
+    padding-left: 109px;
+    padding-top: 23px;
+}
+span.rss a{
+    color: grey;
+}
+ul.saitbar_baner li{
+	width: 130px;
+    padding-top: 95px;
+    padding-bottom: 1px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+li.banner5{
+	background: url(../img/banner5.png) no-repeat;
+    background-position: 54px 30px;
+}
+li.banner4{
+	background: url(../img/banner4.png) no-repeat;
+    background-position: 57px 20px;
+}
+li.banner3{
+	background: url(../img/banner3.png) no-repeat;
+    background-position: 47px 20px;
+}
+li.banner2{
+	background: url(../img/banner2.png) no-repeat;
+    background-position: 40px -16px;
+}
+li.banner1{
+	background: url(../img/banner1.png) no-repeat;
+        background-position: 59px 24px;
+}
+
+
+/* ************** CONTENT *************** */
+div.content{
+	float: right; 
+    padding-top: 58px; 
+}
+ul.content{
+    margin-top: 35px;
+  
+}
+li.content_list:first-child{
+    border-top: solid 1px rgb(79, 171, 239);
+}
+li.content_list{
+    border-bottom: solid 1px rgb(79, 171, 239);
+    padding-bottom: 16px
+}
+h2.compani{
+    float: right;
+    padding-right: 412px;
+    font-size: 1.6em;
+    padding-bottom: 13px;
+}
+h3.name_compani{
+    font-size: 1.39em;
+    padding-left: 132px;
+    padding-top: 11px;
+}
+div.imeg_compani{
+    float: left;
+    width: 130px;
+    padding-top: 128px;
+    background: url(../img/logo_compani.png) no-repeat;
+    background-position: 12px 16px;
+}
+ul.info_companis{
+	padding-left: 135px;
+    padding-top: 8px;
+}
+ul.info_companis li span.contact_info a{
+    color:black;
+}
+li.dorder-comanis {
+    background-color: #dfe5e6 !important;
+    font-size: 0.8em!important;
+    margin-bottom: 3px !important;
+    padding-top: 6px!important;
+    padding-bottom: 5px !important;
+}
+li.dorder-comanis span{
+	padding-left: 8px!important;
+    display: inline-block!important;
+    width: 177px!important;
+    color: rgb(116, 116, 116)!important;
+
+}
+li.dorder-comanis span.contact_info{
+	float: right!important;
+    color:black !important;
+}
+ul.info_companis li:nth-child(odd){
+	background-color: #dfe5e6;
+}
+ul.info_companis li{
+    font-size: 0.8em;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    margin-bottom: 0px;
+}
+ul.info_companis li span.contact_info{
+    display: inline-block;
+    padding-left: 240px;
+    height: 20px;
+}
+.telefon {
+    background: url(../img/telefon.png) no-repeat ;
+    background-position: 218px 0px;
+}
+.skype{
+    background: url(../img/skype.png) no-repeat ;
+    background-position: 218px 0px;
+}
+.mail{
+    background: url(../img/email.png) no-repeat ;
+    background-position: 218px 0px;
+}
+.twitter{
+    background: url(../img/twitter.png) no-repeat ;
+    background-position: 221px 0px;
+}
+/*** ********** Footer ********** ***/
+div.footer{
+    padding-top: 1270px;
+    background: url(../img/footer-beckgroung.png) no-repeat ;
+    background-position: 251px 1270px;
+}
+div.footer-info{
+    border-top: solid 1px rgb(116, 116, 116);
+    font-size: 0.7em;
+
+    padding-left: 258px;
+}
+div.footer-info span{
+    display: block;
+    padding-top: 8px;
+    padding-bottom: 6px;
+    height: 18px;
+    background: url(../img/Vector-Smart.png) no-repeat ;
+    background-position: 459px 4px;
+    color:grey;
+}
+div.footer-info span a{
+    color:grey;
+
+}
