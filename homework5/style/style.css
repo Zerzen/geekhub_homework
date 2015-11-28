@@ -8,37 +8,25 @@ div.wrapper {
 	float: left;
 	width: 780px;
 	padding-left: 208px;
-	padding-right: 215px;
 }
 /* *************** Hedder *************/
 div.mein{
-	height: 166px;
-	background:url(../img/laingorizont.png) no-repeat;
-	background-position: 4px 159px;
+	height: 160px;
+    border-bottom: 1px solid black;
 }	
-h1.logo {
+div.logo {
 	float: left;
-	background:url(../img/logo1.png) no-repeat;
 	width: 350px;
-	padding-bottom: 64px;
-	
-	background-position: 0px 41px;
-}
-span.managers_to_managers {
-    display: block;
-    padding-top: 59px;
-    padding-left: 171px;
-    width: 117px;
-    font-size: 1.1em;
-    color: rgb(147, 149, 152);
+	padding-bottom: 43px;
+	padding-top: 30px;
 }
 ul.registration_menu {
 	padding-top: 5px;
 	padding-bottom: 10px;
 	float: right;
 	width: 161px;
-	background:url(../img/Shape2.png) no-repeat;
-	background-position: 3px -12px;
+    background: #fff;
+    border-radius: 0 0 25px 25px;
 	font-size: 12px;
 }
 ul.registration_menu li {
@@ -47,10 +35,7 @@ ul.registration_menu li {
     margin-right: -5px;
     padding-left: 7px;
 }
-li.home_page{ 
-    background:url(../img/glavna.png) no-repeat;
-    background-position: 6px 3px;
-}
+
 li.registration_menu_border {
 	border-left: 1px solid #939598;
 }
@@ -68,26 +53,44 @@ h4.hedder_info {
     padding-right: 27px;
     font-size: 0.96em;
 }
-
 ul.hedder_menu {
-	width: auto;
-	overflow: hidden;
+    background-color: white;
     float: left;
-    background: url(../img/border_radius.png) no-repeat;
-    background-position: -81px -17px;
-    margin-top: 27px;
-
-
+    margin-top: 37px;
+    border: 1px solid black;
+    border-radius: 25px 25px 0 0;
+    background: linear-gradient(to bottom,#eff2f3,#f0f3f3,#D9D9D9) no-repeat;
+    border-bottom: none;
 }
 ul.hedder_menu li{
-	width: 138px;
+    width: 105px;
     float: right;
-    padding-top: 13px;
-    padding-bottom: 16px;
-    margin-top: 11px;
-    margin-left: -2px;
     text-align: center;
+    padding: 15px;
+    border-bottom: 1px solid black;
 
+}
+ul.hedder_menu li.active{
+    width: 105px;
+    float: right;
+    text-align: center;
+    padding: 15px;
+    border-radius: 25px 0px 0px;
+    border-bottom: 1px solid #e8eded;
+    background: -moz-linear-gradient(top, #ffffff 1%, #e8eded 99%);
+    background: -webkit-linear-gradient(top, #ffffff 1%,#e8eded 99%);
+    background: linear-gradient(to bottom, #ffffff 1%,#e8eded 99%);
+}
+ul.hedder_menu li:hover{
+    width: 105px;
+    float: right;
+    text-align: center;
+    padding: 15px;
+    border-bottom: 1px solid #e8eded;
+    border-radius: 25px 25px 0px 0px;
+    background: -moz-linear-gradient(top, #ffffff 1%, #e8eded 99%);
+    background: -webkit-linear-gradient(top, #ffffff 1%,#e8eded 99%);
+    background: linear-gradient(to bottom, #ffffff 1%,#e8eded 99%);
 }
 ul.hedder_menu li a{
 	color: rgb(116, 116, 116);
@@ -96,19 +99,18 @@ ul.hedder_menu li a{
 	color: rgb(79, 171, 239);
 }
 #vertical{
-	background: url(../img/vertical.png) no-repeat;
-    background-position: 2px  2px;
+    border-left: 1px solid black;
 }
 #vertical2{
-    background: url(../img/vertical2.png) no-repeat;
-    background-position: 0px  2px;
+    border-left: 1px solid black!important;
+    
 }
-/* ************ Saitbar **************/
-div.saitbar{
+/* ************ sidebar **************/
+div.sidebar{
     width: 235px;
     float: left;
 }
-h3.saitbar_categories{
+h3.sidebar_categories{
 	background: url(../img/cvadratic.png) no-repeat;
     background-position: 106px 27px;
     font-size: 1.25em;
@@ -118,13 +120,13 @@ h3.saitbar_categories{
     padding-bottom: 25px;
 
 }
-ul.saitbar_menu{
+ul.sidebar_menu{
 	background: url(../img/strelki.png) no-repeat;
     background-position: 0px 11px;
 	overflow: hidden;
 	width: 230px;
 }
-ul.saitbar_menu li.cms{
+ul.sidebar_menu li.cms{
     border-bottom: solid 1px rgb(116, 116, 116);
     font-size: 15px;
     padding-top: 5px;
@@ -134,13 +136,13 @@ span.padding{
 	display: block;
 	padding-left: 19px;
 }
-ul.saitbar_menu li.desing{
+ul.sidebar_menu li.desing{
     padding-top: 8px;
     padding-bottom: 10px;
     font-size: 15px;
     border-bottom: solid 1px rgb(116, 116, 116);
 }
-ul.saitbar_menu li span a{
+ul.sidebar_menu li span a{
     color: black;
 }
 div.rss{
@@ -164,33 +166,13 @@ span.rss{
 span.rss a{
     color: grey;
 }
-ul.saitbar_baner li{
-	width: 130px;
-    padding-top: 95px;
+ul.sidebar_baner li{
+    width: 230px;
+    padding-top: 21px;
     padding-bottom: 1px;
-    padding-left: 20px;
-    padding-right: 20px;
+    text-align: center;
 }
-li.banner5{
-	background: url(../img/banner5.png) no-repeat;
-    background-position: 54px 30px;
-}
-li.banner4{
-	background: url(../img/banner4.png) no-repeat;
-    background-position: 57px 20px;
-}
-li.banner3{
-	background: url(../img/banner3.png) no-repeat;
-    background-position: 47px 20px;
-}
-li.banner2{
-	background: url(../img/banner2.png) no-repeat;
-    background-position: 40px -16px;
-}
-li.banner1{
-	background: url(../img/banner1.png) no-repeat;
-        background-position: 59px 24px;
-}
+
 
 
 /* ************** CONTENT *************** */
@@ -231,7 +213,7 @@ ul.info_companis{
 	padding-left: 135px;
     padding-top: 8px;
 }
-ul.info_companis li span.contact_info a{
+ul.info_companis li div.contact_info a{
     color:black;
 }
 li.dorder-comanis {
@@ -241,14 +223,14 @@ li.dorder-comanis {
     padding-top: 6px!important;
     padding-bottom: 5px !important;
 }
-li.dorder-comanis span{
+li.dorder-comanis div{
 	padding-left: 8px!important;
     display: inline-block!important;
     width: 177px!important;
     color: rgb(116, 116, 116)!important;
 
 }
-li.dorder-comanis span.contact_info{
+li.dorder-comanis div.contact_info{
 	float: right!important;
     color:black !important;
 }
@@ -261,7 +243,7 @@ ul.info_companis li{
     padding-bottom: 2px;
     margin-bottom: 0px;
 }
-ul.info_companis li span.contact_info{
+ul.info_companis li div.contact_info{
     display: inline-block;
     padding-left: 240px;
     height: 20px;
@@ -294,7 +276,7 @@ div.footer-info{
 
     padding-left: 258px;
 }
-div.footer-info span{
+div.footer-info div{
     display: block;
     padding-top: 8px;
     padding-bottom: 6px;
@@ -303,7 +285,7 @@ div.footer-info span{
     background-position: 459px 4px;
     color:grey;
 }
-div.footer-info span a{
+div.footer-info div a{
     color:grey;
 
 }
