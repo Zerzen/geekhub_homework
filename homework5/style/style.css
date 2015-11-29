@@ -1,0 +1,291 @@
+body{
+  	background:white url(../img/background_fon.png) repeat-x scroll;
+  	font-family: "Arial";
+}
+/* *************** Wrapper ************/
+
+div.wrapper {
+	float: left;
+	width: 780px;
+	padding-left: 208px;
+}
+/* *************** Hedder *************/
+div.mein{
+	height: 160px;
+    border-bottom: 1px solid black;
+}	
+div.logo {
+	float: left;
+	width: 350px;
+	padding-bottom: 43px;
+	padding-top: 30px;
+}
+ul.registration_menu {
+	padding-top: 5px;
+	padding-bottom: 10px;
+	float: right;
+	width: 161px;
+    background: #fff;
+    border-radius: 0 0 25px 25px;
+	font-size: 12px;
+}
+ul.registration_menu li {
+    float: left;
+    margin-left: 16px;
+    margin-right: -5px;
+    padding-left: 7px;
+}
+
+li.registration_menu_border {
+	border-left: 1px solid #939598;
+}
+a.registration {
+	color: rgb(116, 116, 116);
+}
+a.exit {
+	    color: rgb(79, 171, 239);
+}
+h4.hedder_info {
+	float: right;
+    padding-top: 34px;
+    color: rgb(116, 116, 116);
+
+    padding-right: 27px;
+    font-size: 0.96em;
+}
+ul.hedder_menu {
+    background-color: white;
+    float: left;
+    margin-top: 37px;
+    border: 1px solid black;
+    border-radius: 25px 25px 0 0;
+    background: linear-gradient(to bottom,#eff2f3,#f0f3f3,#D9D9D9) no-repeat;
+    border-bottom: none;
+}
+ul.hedder_menu li{
+    width: 105px;
+    float: right;
+    text-align: center;
+    padding: 15px;
+    border-bottom: 1px solid black;
+
+}
+ul.hedder_menu li.active{
+    width: 105px;
+    float: right;
+    text-align: center;
+    padding: 15px;
+    border-radius: 25px 0px 0px;
+    border-bottom: 1px solid #e8eded;
+    background: -moz-linear-gradient(top, #ffffff 1%, #e8eded 99%);
+    background: -webkit-linear-gradient(top, #ffffff 1%,#e8eded 99%);
+    background: linear-gradient(to bottom, #ffffff 1%,#e8eded 99%);
+}
+ul.hedder_menu li:hover{
+    width: 105px;
+    float: right;
+    text-align: center;
+    padding: 15px;
+    border-bottom: 1px solid #e8eded;
+    border-radius: 25px 25px 0px 0px;
+    background: -moz-linear-gradient(top, #ffffff 1%, #e8eded 99%);
+    background: -webkit-linear-gradient(top, #ffffff 1%,#e8eded 99%);
+    background: linear-gradient(to bottom, #ffffff 1%,#e8eded 99%);
+}
+ul.hedder_menu li a{
+	color: rgb(116, 116, 116);
+}
+#activ{
+	color: rgb(79, 171, 239);
+}
+#vertical{
+    border-left: 1px solid black;
+}
+#vertical2{
+    border-left: 1px solid black!important;
+    
+}
+/* ************ sidebar **************/
+div.sidebar{
+    width: 235px;
+    float: left;
+}
+h3.sidebar_categories{
+	background: url(../img/cvadratic.png) no-repeat;
+    background-position: 106px 27px;
+    font-size: 1.25em;
+    width: 220px;
+    padding-top: 21px;
+    padding-left: 2px;
+    padding-bottom: 25px;
+
+}
+ul.sidebar_menu{
+	background: url(../img/strelki.png) no-repeat;
+    background-position: 0px 11px;
+	overflow: hidden;
+	width: 230px;
+}
+ul.sidebar_menu li.cms{
+    border-bottom: solid 1px rgb(116, 116, 116);
+    font-size: 15px;
+    padding-top: 5px;
+    padding-bottom: 10.5px;
+}
+span.padding{
+	display: block;
+	padding-left: 19px;
+}
+ul.sidebar_menu li.desing{
+    padding-top: 8px;
+    padding-bottom: 10px;
+    font-size: 15px;
+    border-bottom: solid 1px rgb(116, 116, 116);
+}
+ul.sidebar_menu li span a{
+    color: black;
+}
+div.rss{
+	background: url(../img/ramka.png) no-repeat;
+    background-position: 64px 16px;
+	width: 230px;
+    padding-bottom: 23px;
+    margin-top: 38px;
+    border-top: solid 1px rgb(116, 116, 116);
+    border-bottom: solid 1px rgb(116, 116, 116);
+}
+span.rss{
+    display: block;
+    background: url(../img/rss.png) no-repeat;
+    background-position: 87px 20px;
+    line-height: 1em;
+    color: rgb(147, 149, 152);
+    padding-left: 109px;
+    padding-top: 23px;
+}
+span.rss a{
+    color: grey;
+}
+ul.sidebar_baner li{
+    width: 230px;
+    padding-top: 21px;
+    padding-bottom: 1px;
+    text-align: center;
+}
+
+
+
+/* ************** CONTENT *************** */
+div.content{
+	float: right; 
+    padding-top: 58px; 
+}
+ul.content{
+    margin-top: 35px;
+  
+}
+li.content_list:first-child{
+    border-top: solid 1px rgb(79, 171, 239);
+}
+li.content_list{
+    border-bottom: solid 1px rgb(79, 171, 239);
+    padding-bottom: 16px
+}
+h2.compani{
+    float: right;
+    padding-right: 412px;
+    font-size: 1.6em;
+    padding-bottom: 13px;
+}
+h3.name_compani{
+    font-size: 1.39em;
+    padding-left: 132px;
+    padding-top: 11px;
+}
+div.imeg_compani{
+    float: left;
+    width: 130px;
+    padding-top: 128px;
+    background: url(../img/logo_compani.png) no-repeat;
+    background-position: 12px 16px;
+}
+ul.info_companis{
+	padding-left: 135px;
+    padding-top: 8px;
+}
+ul.info_companis li div.contact_info a{
+    color:black;
+}
+li.dorder-comanis {
+    background-color: #dfe5e6 !important;
+    font-size: 0.8em!important;
+    margin-bottom: 3px !important;
+    padding-top: 6px!important;
+    padding-bottom: 5px !important;
+}
+li.dorder-comanis div{
+	padding-left: 8px!important;
+    display: inline-block!important;
+    width: 177px!important;
+    color: rgb(116, 116, 116)!important;
+
+}
+li.dorder-comanis div.contact_info{
+	float: right!important;
+    color:black !important;
+}
+ul.info_companis li:nth-child(odd){
+	background-color: #dfe5e6;
+}
+ul.info_companis li{
+    font-size: 0.8em;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    margin-bottom: 0px;
+}
+ul.info_companis li div.contact_info{
+    display: inline-block;
+    padding-left: 240px;
+    height: 20px;
+}
+.telefon {
+    background: url(../img/telefon.png) no-repeat ;
+    background-position: 218px 0px;
+}
+.skype{
+    background: url(../img/skype.png) no-repeat ;
+    background-position: 218px 0px;
+}
+.mail{
+    background: url(../img/email.png) no-repeat ;
+    background-position: 218px 0px;
+}
+.twitter{
+    background: url(../img/twitter.png) no-repeat ;
+    background-position: 221px 0px;
+}
+/*** ********** Footer ********** ***/
+div.footer{
+    padding-top: 1270px;
+    background: url(../img/footer-beckgroung.png) no-repeat ;
+    background-position: 251px 1270px;
+}
+div.footer-info{
+    border-top: solid 1px rgb(116, 116, 116);
+    font-size: 0.7em;
+
+    padding-left: 258px;
+}
+div.footer-info div{
+    display: block;
+    padding-top: 8px;
+    padding-bottom: 6px;
+    height: 18px;
+    background: url(../img/Vector-Smart.png) no-repeat ;
+    background-position: 459px 4px;
+    color:grey;
+}
+div.footer-info div a{
+    color:grey;
+
+}

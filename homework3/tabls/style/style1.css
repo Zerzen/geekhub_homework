@@ -1,0 +1,28 @@
+
+table, th, td{
+	border: 1px solid black;
+}
+div{
+	padding-top: 10px;
+	padding-bottom: 10px;
+	display: block;
+}
+table.table1{
+	width:80%;
+	margin:auto;
+	
+}
+table.table2{
+	width: 50%;
+	margin: auto;
+	height: 500px;
+}
+table.table3{
+    width: 50%;
+	margin: auto;
+	height: 500px;
+}
+
+
+
+
